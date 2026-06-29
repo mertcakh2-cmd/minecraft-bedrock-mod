@@ -1,0 +1,28 @@
+# Temporary files
+temp_pack/
+*.zip
+*.rar
+
+# Compiled files
+*.mcpack.backup
+*.mcaddon.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Minecraft cache
+.minecraft/
+worlds/
+
+# Node modules (if using build tools)
+node_modules/
+package-lock.json
+
+# Build artifacts
+dist/
+build/output/

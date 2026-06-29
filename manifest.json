@@ -1,0 +1,37 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Advanced Mobile Client Mod - PvP Edition with FPS/CPS Counter",
+    "name": "Mobile Client Mod",
+    "uuid": "12345678-1234-1234-1234-123456789012",
+    "version": [26, 23, 0],
+    "min_engine_version": [1, 18, 5]
+  },
+  "modules": [
+    {
+      "description": "Resources module",
+      "type": "resources",
+      "uuid": "87654321-4321-4321-4321-210987654321",
+      "version": [26, 23, 0]
+    },
+    {
+      "description": "Behaviors module",
+      "type": "data",
+      "uuid": "11111111-2222-3333-4444-555555555555",
+      "version": [26, 23, 0]
+    },
+    {
+      "description": "Script module",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "22222222-3333-4444-5555-666666666666",
+      "version": [26, 23, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b26ef30b-39e2-4cda-b89c-eda59d02b098",
+      "version": [0, 0, 1]
+    }
+  ]
+}
